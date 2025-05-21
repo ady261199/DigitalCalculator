@@ -1,7 +1,7 @@
 name: PR Check
 
 on:
-  pull_request:
+  dispatch_workflow:
 
 env:
   FLUTTER_VERSION: 3.29.3
